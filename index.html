@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yime</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125467484-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-125467484-1');
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Varela+Round');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .above-fold {
+            overflow: auto;
+            background: linear-gradient(#fff 70%, #FAFAFA);
+            padding-bottom: 158px;
+            margin-bottom: 94px;
+        }
+
+        h1 {
+            font-family: 'Varela Round', sans-serif;
+        }
+
+        .logo {
+            font-family: 'Varela Round', sans-serif;
+            margin-top: 54px;
+            font-size: 117px;
+            text-align: center;
+        }
+
+        .description {
+            font-size: 18px;
+            color: #747474;
+            margin-bottom: 71px;
+            text-align: center;
+        }
+
+        .email {
+            max-width: 369px;
+            width: 100%;
+            padding: 17px;
+            border-radius: 100px;
+            border: 1px solid #D8D8D8;
+            margin: auto;
+            display: block;
+            margin-bottom: 17px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .email::placeholder {
+            color: #A2A2A2;
+        }
+
+        .sub_btn {
+            cursor: pointer;
+            max-width: 219px;
+            margin: auto;
+            background-color: #171717;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            padding: 16px;
+            border-radius: 100px;
+            text-transform: uppercase;
+            box-sizing: border-box;
+            margin-bottom: 16px;
+        }
+
+        .small-text {
+            text-align: center;
+            font-size: 12px;
+            font-style: italic;
+            color: #989898;
+            margin-bottom: 112px;
+        }
+
+        .two-columns {
+            display: flex;
+            max-width: 1100px;
+            margin: auto;
+            justify-content: center;
+
+        }
+
+        .two-columns img {
+            margin-bottom: 28px;
+        }
+
+        .two-columns .left {
+            padding-right: 85px;
+            text-align: right;
+            flex: 1;
+        }
+
+        .two-columns .right {
+            padding-left: 85px;
+            flex: 1;
+        }
+
+        .two-columns p {
+            max-width: 235px;
+            margin-top: 18px;
+        }
+
+        .two-columns .left p {
+            margin-left: auto;
+        }
+
+        .section-2 {
+            max-width: 810px;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            margin-bottom: 140px;
+        }
+
+        .section-2 .left,
+        .section-2 .right {
+            flex: 1;
+        }
+
+        .section-2 .left {
+            padding-right: 85px
+        }
+
+        .section-2 .right {
+            padding-left: 85px
+        }
+
+        h1.faqs {
+            text-align: center;
+            margin-bottom: 69px;
+
+            font-size: 44px;
+        }
+
+        .section-2 h3 {
+            margin-bottom: 18px;
+        }
+
+        .section-2 p {
+            margin-bottom: 46px;
+            font-size: 15px;
+            line-height: 24px;
+            color: #444;
+
+        }
+
+        .contact {
+            width: 160px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 100px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+            text-align: center;
+            margin: auto;
+            display: block;
+            text-decoration: none;
+            margin-bottom: 115px;
+            color: #6D6D6D;
+            font-size: 18px;
+            transition: background .5s;
+        }
+
+        .contact:hover {
+            background-color: #E84A4A;
+            color: #fff;
+        }
+
+        .thankYou {
+            width: 300px;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="above-fold">
+        <div class="logo">Yime</div>
+        <div class="description">Know when your squad is free</div>
+
+        <input type="email" class="email" placeholder='email@example.com'>
+        <div class="sub_btn">GET IT</div>
+        <div class="small-text">* limited invites while in beta</div>
+
+        <div class="two-columns">
+            <div class="left">
+                <img src="https://i.imgur.com/HwTdhUO.png" alt="">
+                <h3>Select when you're free</h3>
+                <p>Want your friends to make plans with you in it, then share your free time schedule</p>
+            </div>
+            <div class="right">
+                <img src="https://i.imgur.com/QKDy8F0.png" alt="">
+                <h3>View when your friends are free</h3>
+                <p>Tired of asking everyone when they got free time. Why not just look up when they're free</p>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="faqs">FAQs</h1>
+    <div class="section-2">
+        <div class="left">
+            <h3>So Why?</h3>
+            <p>As we get busier, our responsiblities increase. We tend to drift apart from our close friends. Most of the
+                time it's a logistical problem than relationship problem. Yime makes it easier to maintain your social life.</p>
+            <h3>What happens next?</h3>
+            <p>We're doing beta launch with limited users to refine our product. Once you submit your email for an invite,
+                we will eventually invite you. In meanwhile, if you like the concept let us know and invite your friends
+                to do so. </p>
+
+        </div>
+        <div class="right">
+            <h3>Why not Google calendar?</h3>
+            <p>Yime makes it easier to input your schedule. While Google calendar is great to for professional/personal use.
+                It is not to let others know when you're free. Think of Yime as an inverse of Google calendar but easier.</p>
+            <h3>Is it free?</h3>
+            <p>Yes for forseeable future it's free.</p>
+        </div>
+
+    </div>
+
+    <a href="mailto:amdin@yime.app" class="contact">contact</a>
+
+
+    <script>
+        let submitBtn = document.querySelector(".sub_btn");
+        let emailInput = document.querySelector("input.email");
+
+        submitBtn.addEventListener("click", submitForm);
+        emailInput.addEventListener("keydown", enterPressed);
+
+        function enterPressed(event) {
+            if (event.which == 13 || event.keyCode == 13) {
+                submitForm();
+                return false;
+            }
+            return true;
+        }
+
+        function submitForm(event) {
+            sendData();
+            showThankyou();
+        }
+
+        function sendData() {
+            let email = emailInput.value.trim();
+            if (email.length < 5) {
+                return;
+            }
+
+            var de = new URLSearchParams();
+            de.append("emailAddress", email);
+            fetch("https://docs.google.com/forms/d/e/1FAIpQLSc_z7XO0vIrMSDAW8Wu06ZaBvqCa367v1GFJ9xLIPMkdeoJ3A/formResponse",
+                {
+                    method: "POST",
+                    mode: "no-cors",
+                    cache: "no-cache",
+                    credentials: "same-origin",
+                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                    redirect: "follow",
+                    referrer: "no-referrer",
+                    body: de
+                }
+            ).then(response => console.log(response));
+        }
+
+        function showThankyou() {
+            let thankYouEle = document.createElement('p');
+            thankYouEle.textContent = 'You\'re in. We will be sending out invite in coming days';
+            thankYouEle.classList.add('thankYou');
+            submitBtn.remove();
+            emailInput.replaceWith(thankYouEle);
+            emailInput.remove();
+        }
+    </script>
+
+</body>
+
+</html>
