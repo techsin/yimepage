@@ -15,6 +15,7 @@
         gtag('config', 'UA-125467484-1');
     </script>
     <style>
+           <style>
         @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Varela+Round');
 
         * {
@@ -160,7 +161,6 @@
             font-size: 15px;
             line-height: 24px;
             color: #444;
-
         }
 
         .contact {
@@ -191,6 +191,32 @@
             text-align: center;
             font-size: 18px;
             text-transform: uppercase;
+        }
+
+        @media (max-width: 800px) { 
+            .two-columns {
+                flex-direction: column;
+            }
+             .two-columns .left,  .two-columns .right {
+                 padding: 10px;
+                 text-align: center;
+             }
+             .two-columns p {
+                 margin: auto;
+             }
+             .small-text {
+                 margin-bottom: 30px;
+             }
+             .above-fold {
+                 padding-bottom: 60px;
+             }
+             .section-2 {
+                 flex-direction: column;
+                 padding: 10px;
+             }
+             .section-2 .left, .section-2 .right {
+                 padding: 10px;
+             }
         }
     </style>
 </head>
